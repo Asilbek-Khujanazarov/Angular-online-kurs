@@ -1,46 +1,12 @@
-# ================================
-# DEFAULT: HAMMASINI IGNORE QIL
-# ================================
+
+*
 
 
-# ================================
-# RUXSAT BERILADIGAN PAPKALAR
-# ================================
 !src/
 !src/**
 
 !public/
 !public/**
 
-# # ================================
-# # RUXSAT BERILADIGAN MUHIM FAYLLAR
-# # (Angular ishlashi uchun)
-# # ================================
-# !package.json
-# !package-lock.json
-# !angular.json
-# !tsconfig.json
-# !tsconfig.app.json
-# !tsconfig.spec.json
-# !karma.conf.js
-!README.md
 
-
-node_modules/
-**/node_modules/
-
-dist/
-**/dist/
-
-.angular/
-**/.angular/
-
-coverage/
-tmp/
-out-tsc/
-
-# IDE / SYSTEM
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
+!.gitignore

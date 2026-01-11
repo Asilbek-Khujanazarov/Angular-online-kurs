@@ -1,0 +1,48 @@
+.todo-page {
+  width: 400px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+.add {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.filters {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 6px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.actions button {
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #888;
+  background: #f3f3f3;
+}
+
+.empty {
+  text-align: center;
+  color: #aaa;
+}

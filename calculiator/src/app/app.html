@@ -1,0 +1,19 @@
+<div class="page-center">
+  <div class="container">
+    <input type="number" placeholder="Son1" [(ngModel)]="number1" />
+    <input type="number" placeholder="Son2" [(ngModel)]="number2"  />
+    <div class="btns-container">
+      <button (click)="calculate('+')">+</button>
+      <button (click)="calculate('-')">-</button>
+      <button (click)="calculate('*')">*</button>
+      <button (click)="calculate('/')">/</button>
+    </div>
+    <hr />
+    <div>
+      Natija:
+      <strong>
+        {{ result}}
+      </strong>
+    </div>
+  </div>
+</div>

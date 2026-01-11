@@ -1,13 +1,13 @@
-
 *
-!src/
-!src/**
 
-!public/
-!public/**
+!*/
+
+!**/src/
+!**/src/**
+
+!**/public/
+!**/public/**
 
 
+!.gitignore
 !README.md
-
-
-

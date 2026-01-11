@@ -1,7 +1,5 @@
 
 *
-
-
 !src/
 !src/**
 
@@ -9,4 +7,7 @@
 !public/**
 
 
-!.gitignore
+!README.md
+
+
+

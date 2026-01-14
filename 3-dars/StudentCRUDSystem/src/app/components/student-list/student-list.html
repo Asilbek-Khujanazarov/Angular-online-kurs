@@ -1,0 +1,16 @@
+<h2>Student CRUD System</h2>
+
+<app-student-form
+  [student]="selected"
+  (save)="save($event)">
+</app-student-form>
+
+<app-student-card
+  *ngFor="let s of students"
+  [student]="s"
+  (edit)="edit($event)"
+  (delete)="delete($event)">
+</app-student-card>
+
+<p>O'rtacha ball: {{ service.averageGrade() }}</p>
+<p>Eng yaxshi talaba: {{ service.bestStudent()?.name }}</p>

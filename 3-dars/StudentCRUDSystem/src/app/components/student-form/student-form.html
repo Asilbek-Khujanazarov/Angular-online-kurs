@@ -1,0 +1,7 @@
+<form (ngSubmit)="submit()">
+  <input placeholder="Ism" [(ngModel)]="model.name" name="name" required>
+  <input placeholder="Fan" [(ngModel)]="model.subject" name="subject" required>
+  <input type="number" placeholder="Ball" [(ngModel)]="model.grade" name="grade">
+
+  <button type="submit">Saqlash</button>
+</form>

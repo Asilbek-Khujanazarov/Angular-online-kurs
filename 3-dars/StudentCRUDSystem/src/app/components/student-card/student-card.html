@@ -1,0 +1,12 @@
+<div class="card">
+  <h3>{{ student.name }}</h3>
+  <button (click)="toggle()">Details</button>
+
+  <div #details style="display:none">
+    <p>Fan: {{ student.subject }}</p>
+    <p>Ball: {{ student.grade }}</p>
+  </div>
+
+  <button (click)="edit.emit(student)">Edit</button>
+  <button (click)="delete.emit(student.id)">Delete</button>
+</div>
